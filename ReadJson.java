@@ -15,7 +15,7 @@ public class ReadJson extends AppCompatActivity implements Runnable {
 
     private OkHttpClient client = new OkHttpClient();
     private TextView editText;
-    private String updateView = "http://103.233.34.92:8010/api/get";
+    private String updateView = "http://103.233.34.92:8010/api/get"; // URL адрес к Json файлу
 
     private String myRun(String url) throws IOException {
         Request request = new Request.Builder()
